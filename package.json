@@ -1,0 +1,19 @@
+{
+  "name": "rdp-obfuscator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "@types/yargs": "^12.0.1"
+  },
+  "dependencies": {
+    "yargs": "^12.0.2"
+  }
+}

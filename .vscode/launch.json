@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "program": "${workspaceFolder}\\index.js",
+            "args": [
+                "server",
+                "--localPort",
+                "8003",
+                "--rdpPort",
+                "3390"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Client",
+            "program": "${workspaceFolder}\\index.js",
+            "args": [
+                "client",
+                "--remoteAddress",
+                "30.40.39.17",
+                "--remotePort",
+                "8003"
+            ]
+        }
+    ]
+}
